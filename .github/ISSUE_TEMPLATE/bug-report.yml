@@ -1,4 +1,13 @@
+name: Bug Report
+description: File a structured bug report for iOS
 body:
+  - type: markdown
+    attributes:
+      value: "## Welcome!"
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug!     
   - type: dropdown
     id: ios-version
     attributes:
@@ -10,10 +19,3 @@ body:
         - iOS 17
     validations:
       required: true
-- type: markdown
-  attributes:
-    value: "## Welcome!"
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to fill out this bug!     
