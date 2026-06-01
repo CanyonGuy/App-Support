@@ -1,13 +1,15 @@
 name: Bug Report
-description: File a structured bug report for iOS
+description: This description only shows up on the "Choose a template" menu.
+title: "[Bug]: "
 body:
-  - type: markdown
-    attributes:
-      value: "## Welcome!"
+  # 1. This displays your description text directly inside the form:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug!     
+        ### Submit a Bug Report
+        Please fill out the details below to report an iOS application crash or malfunction.
+        
+  # 2. Your dropdown menu:
   - type: dropdown
     id: ios-version
     attributes:
