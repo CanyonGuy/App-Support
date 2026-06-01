@@ -19,3 +19,24 @@ body:
         - iOS 17
     validations:
       required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Reproduction Steps"
+      description: "Tell us how to reproduce the bug step-by-step."
+      placeholder: |
+        1. Open the app...
+        2. Click on settings...
+        3. App crashes...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots-logs
+    attributes:
+      label: "Screenshots or Logs"
+      description: "Drag and drop images, videos, or log files directly into the box below."
+      placeholder: "Attach files here..."
+    validations:
+      required: false
