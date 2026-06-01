@@ -1,10 +1,19 @@
----
-name: Bug Report
-about: For issues with CanyonSAR use, describe the challenges
-title: ''
-labels: ''
-assignees: ''
-
----
-
-
+body:
+  - type: dropdown
+    id: ios-version
+    attributes:
+      label: iOS Version
+      description: Select the iOS version where the bug occurs.
+      options:
+        - iOS 19
+        - iOS 18
+        - iOS 17
+    validations:
+      required: true
+- type: markdown
+  attributes:
+    value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug!     
